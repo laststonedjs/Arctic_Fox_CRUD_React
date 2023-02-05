@@ -1,48 +1,48 @@
 [
   {
-    "id": "4221a8f0-7079-4c07-8c3a-ff8bf48eb1ac",
+    "id": "1",
     "name": "Alfa",
     "age": "3",
     "image": "images/fox0.jpg"
   },
   {
-    "id": "6a993a2f-f01a-4a3b-af4f-3d3ed4cdd891",
+    "id": "2",
     "name": "Bravo",
     "age": "5",
     "image": "images/fox1.jpg"
   },
   {
-    "id": "b5d8f804-36a1-4cd2-81b0-4d71e729961b",
+    "id": "3",
     "name": "Charlie",
     "age": "7",
     "image": "images/fox2.jpg"
   },
   {
-    "id": "6c777288-7f96-45c2-8874-cafa45c83151",
+    "id": "4",
     "name": "Delta",
     "age": "3",
     "image": "images/fox3.jpg"
   },
   {
-    "id": "16510211-bce6-4a9f-8089-46cf37335007",
+    "id": "5",
     "name": "Echo",
     "age": "5",
     "image": "images/fox4.jpg"
   },
   {
-    "id": "cea8cab5-c178-4d0b-8f47-a6b7b2014076",
+    "id": "6",
     "name": "Foxtrot",
     "age": "2",
     "image": "images/fox5.jpg"
   },
   {
-    "id": "7014f7ce-1b55-486d-97ed-5a8eea3cde9e",
+    "id": "7",
     "name": "Golf",
     "age": "1",
     "image": "images/fox6.jpg"
   },
   {
-    "id": "6c5a41d9-1ed8-439f-9194-26b09f7b8ec2",
+    "id": "8",
     "name": "Hotel",
     "age": "6",
     "image": "images/fox7.jpg"

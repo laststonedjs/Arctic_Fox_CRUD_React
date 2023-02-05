@@ -1,6 +1,6 @@
 import "./Header.css";
 // assets
-import logo from "../../assets/images/logo0.jpg";
+import logo from "../../assets/logo0.jpg";
 
 const Header = () => {
   return (

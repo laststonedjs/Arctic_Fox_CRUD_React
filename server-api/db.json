@@ -5,7 +5,7 @@
       "name": "Alfa",
       "age": "3",
       "description": "In summer, arctic foxes feed primarily on small mammals, including lemmings and tundra voles. Foxes denning near rocky cliffs along the seacoast often depend heavily on nesting seabirds such as auklets, puffins, and murres.",
-      "image": "images/fox0.jpg"
+      "image": "require('images/fox0.jpg')"
     },
     {
       "id": "2",

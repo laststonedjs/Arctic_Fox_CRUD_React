@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server -p 3006 -w db.json",
-    "server": "nodemon index.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon index.js"
   },
   "keywords": [],
   "author": "",

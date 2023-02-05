@@ -4,24 +4,9 @@ import Header from "../components/header/Header";
 import FoxList from "../components/foxList/FoxList";
 // styles
 import "../App.css"
-// api
-import api from "../api/foxes";
-
 
 const DetailPage = () => {
   const [foxData, setFoxData] = useState([]);
-
-  // add foxes
-  const addFoxHandler = async (foxes) => {
-    console.log(foxes);
-    const request = {
-      ...foxData,
-    };
-
-    const response = await api.post("/foxes", request);
-    console.log(response);
-    setFoxData([...foxData, response.data]);
-  }
 
   return (
     <>

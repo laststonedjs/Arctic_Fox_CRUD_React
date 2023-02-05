@@ -30,9 +30,10 @@ const Home = () => {
           {
             foxData &&
             foxData.map(item => (
-              <div className='home-card-items'>
+              <div
+                key={item.id}
+                className='home-card-items'>
                 <FoxCard
-                  key={item.id}
                   name={item.name}
                   age={item.age}
                   image={item.image}

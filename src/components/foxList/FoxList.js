@@ -20,7 +20,7 @@ const FoxList = () => {
   const RemoveItem = (id) => {
     if (window.confirm('Do you really want to remove?')) {
 
-      fetch("http://localhost:3006/foxes" + id, {
+      fetch("http://localhost:3006/foxes/" + id, {
         method: "DELETE"
       }).then((res) => {
         alert("Removed successfully!");

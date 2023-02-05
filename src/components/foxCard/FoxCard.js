@@ -16,7 +16,7 @@ const FoxCard = (props) => {
             src={image}
             className="img-thumbnail"
             style={{ paddingTop: "5px", height: "100%", width: "100%" }}
-            alt="arctic fox"
+            alt={name}
           />
         </div>
       </div>

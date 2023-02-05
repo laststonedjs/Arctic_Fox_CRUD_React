@@ -1,4 +1,4 @@
-🌱 Arctic Foxes Blog App built in React and Bootstrap 🌱
+🌱 Arctic Foxes Blog App built in React using Bootstrap 🌱
 
 In the project directory('/isatis_technical_task'), you can run:
 

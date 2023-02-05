@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import DetailPage from "./pages/DetailPage";
 // components
 import AddFox from "./components/addFox/AddFox";
-import FoxEdit from "./components/editFox/FoxEdit";
+import FoxEdit from "./components/edit/FoxEdit";
 import FoxDetail from "./components/foxDetail/FoxDetail";
 // styles
 import './App.css';

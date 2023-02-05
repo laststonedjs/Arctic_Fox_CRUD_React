@@ -6,7 +6,7 @@ In the project directory('/isatis_technical_task'), you can run:
 
 Open Arctic Fox blog to view it in your browser.
 
-## I created fake Mock REST Api with "json-server" package, installed with npm
+## Created fake Mock RESTApi with "json-server" package, installed with npm
 
 ### Simulated database with json-server.
 

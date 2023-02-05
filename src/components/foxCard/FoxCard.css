@@ -1,0 +1,31 @@
+.card {
+  background: #e0a985;
+}
+
+.our-card-top {
+  position: relative;
+}
+
+.desc-text {
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #e0a985 0.6;
+  color: #512d15;
+}
+
+.custom-input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.custom-input-interior {
+  position: absolute;
+  top: 19px;
+  left: 9px;
+  right: 12px;
+  transform: translateY(-50%);
+}

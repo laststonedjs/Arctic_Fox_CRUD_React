@@ -1,0 +1,13 @@
+.foxList {
+  background: #5c8a8a;
+}
+
+.btn-group {
+  margin-top: 3px;
+  margin-left: 1px;
+}
+
+.btn-group button {
+  width: 6rem;
+  height: 3rem;
+}

@@ -10,7 +10,7 @@ const FoxCard = (props) => {
 
   return (
     <div className="card" style={{ background: "#f5e2d6" }}>
-      <div className="our-card-top">
+      <div className="card-top">
         <div className="col-15">
           <img
             src={image}

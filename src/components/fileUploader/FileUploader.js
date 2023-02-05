@@ -1,30 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react';
+// styles
+import "./FileUploader.css";
 
-const FileUploader = ({ }) => {
+const FileUploader = () => {
+  const [image, setImage] = useState('');
 
   const onInputChange = (e) => {
-    console.log(e.target.value);
+    console.log(e.target.files);
+    setImage(URL.createObjectURL(e.target.files[0]));
   }
 
   return (
-    <form method='post' action='#' id='#'>
-      <div className='form-group files'>
-        <label>Upload your image/file..</label>
+    <>
+      <div className='custom-file mb-1'>
         <input
           type="file"
           onChange={onInputChange}
-          className='form-control'
-          multiple=''
+          className='file-input'
+          id='customFile'
         />
+        <img src={image} alt="" />
       </div>
-
-      <button
-        type="button"
-        class="btn btn-outline-primary"
-        disabled
-      >Submit
-      </button>
-    </form>
+    </>
   )
 }
 

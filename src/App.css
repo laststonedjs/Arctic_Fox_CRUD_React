@@ -10,3 +10,12 @@
   font-size: 16px;
   color: crimson;
 }
+
+.home-card-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 55%;
+  padding-top: 30px;
+}

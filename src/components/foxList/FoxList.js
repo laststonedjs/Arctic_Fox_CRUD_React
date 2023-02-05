@@ -76,13 +76,13 @@ const FoxList = () => {
                   </button>
                   <button
                     class="btn btn-danger"
-                    onClick={() => { RemoveItem(item.id) }}
+                    onClick={(e) => { RemoveItem(item.id) }}
                   >
                     Delete
                   </button>
                   <button
                     class="btn btn-info"
-                    onClick={() => { LoadDetail(item.id) }}
+                    onClick={(e) => { LoadDetail(item.id) }}
                   >
                     Details
                   </button>

@@ -1,23 +1,25 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+// components
+import FileUploader from '../fileUploader/FileUploader'
 
 const CreateNewForm = () => {
   const [id, setId] = useState("")
   const [name, setName] = useState("")
   const [age, setAge] = useState("")
-  const [file, setFile] = useState("")
-  const CreatePhotoField = useRef()
+  const [image, setImage] = useState("")
   const [validation, setValidation] = useState(false)
 
   const navigate = useNavigate();
 
+
   const submitHandler = (e) => {
     e.preventDefault();
-    const foxData = ({ id, name, age, file });
+    const foxData = ({ id, name, age, image });
 
     fetch("http://localhost:3006/foxes", {
       method: "POST",
-      headers: { "content-type": "application/json" },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(foxData)
     }).then((res) => {
       alert("Successfully Added your new Arctic Fox!");
@@ -35,7 +37,7 @@ const CreateNewForm = () => {
         <input value={id} style={{ display: "none" }} />
       </div>
       <div className="mb-2">
-        <input ref={CreatePhotoField} onChange={e => setFile(e.target.files[0])} type="file" className="form-control" />
+        <FileUploader />
       </div>
       <div className="mb-2">
         <input

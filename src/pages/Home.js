@@ -7,7 +7,7 @@ import "../App.css"
 
 
 const Home = () => {
-  const [foxData, setFoxData] = useState();
+  const [foxData, setFoxData] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3006/foxes").then((res) => {

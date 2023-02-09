@@ -16,9 +16,7 @@ const DetailPage = () => {
           <a href="/home" className="home-link">&laquo; Back to Homepage</a>
         </p>
         <div className="fox-grid">
-          <FoxList
-            foxes={foxData}
-          />
+          <FoxList />
         </div>
       </div>
     </>

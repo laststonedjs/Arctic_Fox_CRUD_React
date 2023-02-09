@@ -1,50 +1,52 @@
-[
-  {
-    "id": "1",
-    "name": "Alfa",
-    "age": "3",
-    "image": "images/fox0.jpg"
-  },
-  {
-    "id": "2",
-    "name": "Bravo",
-    "age": "5",
-    "image": "images/fox1.jpg"
-  },
-  {
-    "id": "3",
-    "name": "Charlie",
-    "age": "7",
-    "image": "images/fox2.jpg"
-  },
-  {
-    "id": "4",
-    "name": "Delta",
-    "age": "3",
-    "image": "images/fox3.jpg"
-  },
-  {
-    "id": "5",
-    "name": "Echo",
-    "age": "5",
-    "image": "images/fox4.jpg"
-  },
-  {
-    "id": "6",
-    "name": "Foxtrot",
-    "age": "2",
-    "image": "images/fox5.jpg"
-  },
-  {
-    "id": "7",
-    "name": "Golf",
-    "age": "1",
-    "image": "images/fox6.jpg"
-  },
-  {
-    "id": "8",
-    "name": "Hotel",
-    "age": "6",
-    "image": "images/fox7.jpg"
-  }
-]
+{
+  "foxes": [
+    {
+      "id": "1",
+      "name": "Alfa",
+      "age": "3",
+      "image": "images/fox0.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Bravo",
+      "age": "5",
+      "image": "images/fox1.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "age": "7",
+      "image": "images/fox2.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Delta",
+      "age": "3",
+      "image": "images/fox3.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Echo",
+      "age": "5",
+      "image": "images/fox4.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Foxtrot",
+      "age": "2",
+      "image": "images/fox5.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Golf",
+      "age": "1",
+      "image": "images/fox6.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Hotel",
+      "age": "6",
+      "image": "images/fox7.jpg"
+    }
+  ]
+}

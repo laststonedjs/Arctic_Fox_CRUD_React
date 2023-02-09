@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 // styles
 import "./FoxCard.css";
 
-const FoxCard = (props) => {
-  const [foxes, setFoxes] = useState([]);
-  const { id, name, age, description, image } = props;
-
-  console.log(foxes);
+const FoxCard = ({ name, age, description, image }) => {
 
   return (
     <div className="card" style={{ background: "#f5e2d6" }}>

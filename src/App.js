@@ -13,7 +13,7 @@ import FoxDetail from "./components/foxDetail/FoxDetail";
 // styles
 import './App.css';
 
-function App() {
+const App = () => {
 
   return (
     <Routes>

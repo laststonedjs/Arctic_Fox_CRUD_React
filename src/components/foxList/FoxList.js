@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, Link } from 'react-router-dom';
+import axios from "axios";
 // components
 import FoxCard from '../foxCard/FoxCard';
 // styles
@@ -44,7 +45,10 @@ const FoxList = () => {
     }).catch((err) => {
       console.log(err.message)
     })
-  }, [])
+  }, []);
+
+  console.log(foxData);
+
 
   return (
     <div className='container'>

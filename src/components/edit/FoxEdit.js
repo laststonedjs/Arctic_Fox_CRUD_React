@@ -13,7 +13,7 @@ const FoxEdit = () => {
     }).then((resp) => {
       setName(resp.name);
       setAge(resp.age);
-      setFile(resp.file);
+      setImage(resp.image);
     }).catch((err) => {
       console.log(err.message)
     })
@@ -23,18 +23,18 @@ const FoxEdit = () => {
   const [id, setId] = useState("")
   const [name, setName] = useState("")
   const [age, setAge] = useState("")
-  const [file, setFile] = useState("")
+  const [image, setImage] = useState("")
   const [validation, setValidation] = useState(false)
 
   const navigate = useNavigate();
 
   const submitHandler = (e) => {
     e.preventDefault();
-    const foxData = { id, name, age, file };
+    const foxData = { id, name, age, image };
 
     fetch("http://localhost:3006/foxes" + foxid, {
       method: "PUT",
-      headers: { "content-type": "application/json" },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(foxData)
     }).then((res) => {
       alert("Successfully edited your Fox!");
@@ -57,7 +57,9 @@ const FoxEdit = () => {
       </div>
 
       <div className="mb-3">
-        <FileUploader />
+        <FileUploader
+          value={image}
+        />
       </div>
       <div className="mb-2">
         <input

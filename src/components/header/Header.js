@@ -9,12 +9,12 @@ const Header = () => {
         <img
           src={logo}
           alt="logo"
-          class="img-fluid rounded-start"
+          className="img-fluid rounded-start"
           style={{ width: "20%", height: "15%", borderRadius: "70%", display: "flex", justifyContent: "flex-start" }}
         />
       </div>
       <div style={{ marginRight: "2%", marginTop: "1.5%" }}>
-        <p class="company-name">Arctic Foxes</p>
+        <p className="company-name">Arctic Foxes</p>
       </div>
     </div>
   );

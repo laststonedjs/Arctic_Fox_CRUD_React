@@ -1,4 +1,4 @@
-.card-detail {
-  margin: 5px;
-  width: 80%;
+.home-link:hover {
+  transition: all ease-in 0.6s;
+  font-size: 17px;
 }

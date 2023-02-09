@@ -17,9 +17,9 @@ const FoxCard = ({ name, age, description, image }) => {
         </div>
       </div>
       <div className="card-body">
-        <h4 className="text-medium" style={{ color: "#512d15" }}>My Name is: {name}</h4>
-        <p className="text-muted small">Age: {age}</p>
-        <div className='desc-text'>QA: {description}</div>
+        <h4 className="text-medium" style={{ color: "#512d15" }}>My Name is <i style={{ fontSize: "28px", marginLeft: "5px" }}>{name}</i></h4>
+        <p className="text-small">Age: {age}</p>
+        <div className='desc-text'><i>{description}</i></div>
       </div>
     </div>
   )

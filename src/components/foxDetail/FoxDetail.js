@@ -19,27 +19,29 @@ const FoxDetail = () => {
     })
   }, []);
 
-  console.log(foxData);
+
   return (
     <div>
-      <p style={{ textDecoration: "none", marginTop: "2px", marginLeft: "5px" }}>
-        <a href="/home" className="home-link">&laquo; Back to Foxy page</a>
-      </p>
       <Header />
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">{foxData.name}</h5>
-          <p class="card-text">I am {foxData.age} yers old and live in a family consisting of one adult male, the young, and two vixens, one a non-breeding female born the year before that helps look after the next litter. </p>
-          <p class="card-text"><small class="text-muted">Years: {foxData.age}</small></p>
-        </div>
-
-        <div className='card-detail'>
-          {foxData &&
-            <>
-              <h2>This friend is called: {foxData.name} ({foxData.id})</h2>
-              {/* <p><img src={foxData.image} class="card-img-bottom" alt="wider-card" /></p> */}
-            </>
-          }
+      <h2 style={{ textDecoration: "none", marginTop: "2%", marginLeft: "7%" }}>
+        <a href="/home" className="home-link">&laquo; Back to Foxy page</a>
+      </h2>
+      <div className="card mb-2" style={{ maxWidth: "80%", marginLeft: "7%", marginTop: "2%" }}>
+        <div className="row no-gutters">
+          <div className='col-md-6'>
+            {foxData &&
+              <>
+                <img src={foxData.image} className='card-img' alt="detail-card" />
+              </>
+            }
+          </div>
+          <div className='col-md-5'>
+            <div className='card-body mt-4'>
+              <h4 className="card-title mb-3">{foxData.name}</h4>
+              <p className="card-text">I am <strong>{foxData.age}</strong> years old and live in a family consisting of one adult male, the young, and two vixens, one a non-breeding female born the year before that helps look after the next litter. </p>
+              <p className="card-text"><small className="text-medium"><strong>Eats:</strong> {foxData.food}</small></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

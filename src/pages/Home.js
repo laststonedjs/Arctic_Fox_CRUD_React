@@ -5,7 +5,6 @@ import FoxCard from '../components/foxCard/FoxCard';
 // styles
 import "../App.css"
 
-
 const Home = () => {
   const [foxData, setFoxData] = useState([]);
 
@@ -19,12 +18,13 @@ const Home = () => {
     })
   }, [])
 
+
   return (
-    <>
+    <div className="home-wrapper">
       <Header />
       <div className="container">
         <p>
-          <a href="/" className="home-link">Go to Detail Page &raquo;</a>
+          <a href="/home" className="home-link">Go to Detail Page &raquo;</a>
         </p>
         <div>
           {
@@ -44,7 +44,7 @@ const Home = () => {
             )}
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

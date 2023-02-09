@@ -18,9 +18,9 @@ const App = () => {
   return (
     <Routes>
 
-      <Route path="/home" element={<Home />}></Route>
+      <Route path="/" element={<Home />}></Route>
 
-      <Route path="/" element={<DetailPage />}></Route>
+      <Route path="/home" element={<DetailPage />}></Route>
       <Route path="/foxes/add" element={<AddFox />}></Route>
 
       <Route path="/foxes/detail/:foxid" element={<FoxDetail />}></Route>

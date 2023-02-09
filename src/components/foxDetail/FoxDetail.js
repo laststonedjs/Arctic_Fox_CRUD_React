@@ -23,7 +23,7 @@ const FoxDetail = () => {
   return (
     <div>
       <p style={{ textDecoration: "none", marginTop: "2px", marginLeft: "5px" }}>
-        <a href="/" className="home-link">&laquo; Back to Foxy page</a>
+        <a href="/home" className="home-link">&laquo; Back to Foxy page</a>
       </p>
       <Header />
       <div class="card">

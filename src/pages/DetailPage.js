@@ -6,14 +6,13 @@ import FoxList from "../components/foxList/FoxList";
 import "../App.css"
 
 const DetailPage = () => {
-  const [foxData, setFoxData] = useState([]);
 
   return (
     <>
       <Header />
       <div className="container">
         <p style={{ textDecoration: "none", marginTop: "2px" }}>
-          <a href="/home" className="home-link">&laquo; Back to Homepage</a>
+          <a href="/" className="home-link">&laquo; Back to Homepage</a>
         </p>
         <div className="fox-grid">
           <FoxList />

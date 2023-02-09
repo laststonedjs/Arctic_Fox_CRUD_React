@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, Link } from 'react-router-dom';
-import axios from "axios";
 // components
 import FoxCard from '../foxCard/FoxCard';
 // styles
@@ -9,6 +8,7 @@ import "./FoxList.css";
 const FoxList = () => {
   const [foxData, setFoxData] = useState(null);
   const navigate = useNavigate();
+
 
   const LoadEdit = (id) => {
     navigate("/foxes/edit/" + id)
@@ -46,9 +46,6 @@ const FoxList = () => {
       console.log(err.message)
     })
   }, []);
-
-  console.log(foxData);
-
 
   return (
     <div className='container'>
@@ -88,7 +85,7 @@ const FoxList = () => {
                     class="btn btn-info"
                     onClick={(e) => { LoadDetail(item.id) }}
                   >
-                    Details
+                    More
                   </button>
                 </div>
               </div>

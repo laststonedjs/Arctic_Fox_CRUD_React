@@ -19,7 +19,9 @@ const FileUploader = () => {
           className='file-input'
           id='customFile'
         />
-        <img src={image} alt="" />
+        <div>
+          {image && <img src={image} alt="" className='shown-image' />}
+        </div>
       </div>
     </>
   )

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
+// components
 import FileUploader from '../fileUploader/FileUploader';
 // styles
 import "./FoxEdit.css";
@@ -37,7 +38,7 @@ const FoxEdit = () => {
       body: JSON.stringify(foxData)
     }).then((res) => {
       alert("Successfully edited your Fox!");
-      navigate("/")
+      navigate("/home")
     }).catch((err) => {
       console.log(err.message);
     })
@@ -81,7 +82,7 @@ const FoxEdit = () => {
 
       <div className='control-buttons'>
         <button type="submit" className="btn btn-success">Finish editing</button>
-        <Link to="/" className="btn btn-danger" style={{ marginLeft: "3px" }}>Go Back!</Link>
+        <Link to="/home" className="btn btn-danger" style={{ marginLeft: "3px" }}>Go Back!</Link>
       </div>
 
     </form>

@@ -1,5 +1,5 @@
 .fox-grid {
-  margin: 0 0;
+  margin: 0 0 10px 0;
   display: grid;
   grid-template-rows: repeat(auto-fill, minmax(230px, 1fr));
   gap: 20px 30px;
@@ -18,4 +18,8 @@
   margin: 0 auto;
   width: 40%;
   padding-top: 30px;
+}
+
+.home-wrapper {
+  margin-bottom: 10px;
 }

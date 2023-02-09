@@ -9,7 +9,6 @@ const CreateNewForm = () => {
   const [age, setAge] = useState("")
   const [image, setImage] = useState("")
   const [validation, setValidation] = useState(false)
-
   const navigate = useNavigate();
 
 
@@ -23,7 +22,7 @@ const CreateNewForm = () => {
       body: JSON.stringify(foxData)
     }).then((res) => {
       alert("Successfully Added your new Arctic Fox!");
-      navigate("/")
+      navigate("/home")
     }).catch((err) => {
       console.log(err.message);
     })
@@ -62,7 +61,7 @@ const CreateNewForm = () => {
 
       <div className='control-buttons'>
         <button type="submit" className="btn btn-success">Add a new Arctic Fox!</button>
-        <Link to="/" className="btn btn-danger" style={{ marginLeft: "3px" }}>Go Back</Link>
+        <Link to="/home" className="btn btn-danger" style={{ marginLeft: "3px" }}>Go Back</Link>
       </div>
 
     </form>

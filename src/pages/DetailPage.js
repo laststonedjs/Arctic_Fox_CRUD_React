@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // components
 import Header from "../components/header/Header";
 import FoxList from "../components/foxList/FoxList";
@@ -11,7 +11,7 @@ const DetailPage = () => {
     <>
       <Header />
       <div className="container">
-        <p style={{ textDecoration: "none", marginTop: "2px" }}>
+        <p style={{ textDecoration: "none", marginTop: "3%", marginLeft: "1%" }}>
           <a href="/" className="home-link">&laquo; Back to Homepage</a>
         </p>
         <div className="fox-grid">

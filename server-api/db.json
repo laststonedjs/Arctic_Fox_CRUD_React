@@ -20,7 +20,7 @@
       "id": "3",
       "name": "Charlie",
       "age": "7",
-      "description": "Newborn arctic fox pups of both color phases are covered with short velvety dark brown fur. This fur lengthens and becomes lighter, especially on the flanks, after the pups reach two weeks of age. ",
+      "description": "Newborn arctic fox pups of both color phases are covered with short velvety dark brown fur. This fur lengthens and becomes lighter, especially on the flanks, after the pups reach two weeks. ",
       "image": "/images/fox2.jpg",
       "food": "Birds, Squirrel"
     },
@@ -36,7 +36,7 @@
       "id": "5",
       "name": "Echo",
       "age": "5",
-      "description": "When inactive, the arctic fox uses underground dens in a bank or hillside, or may tunnel into a snow bank in the winter. They prefer sandy soil along riverbanks, hillocks, and occasionally talus for denning.",
+      "description": "When inactive, the arctic fox uses underground dens in a bank or hillside, or may tunnel into a snow bank in the winter. They prefer sandy soil along riverbanks, hillocks, and occasionally talus for denning. They will commonly use dumps in northern Alaska. It is well adapted to living in cold environments, and is best known for its thick, warm fur that is also used as camouflage ",
       "image": "/images/fox4.jpg",
       "food": "Squirrel, Lemmings"
     },
@@ -60,7 +60,7 @@
       "id": "8",
       "name": "Creuss",
       "age": "6",
-      "description": "The arctic fox is found in treeless coastal areas of Alaska from the Aleutian Islands north to Point Barrow and east to the Canada border. They prefer tundra habitat, usually near rocky shores, and have been observed ranging far out onto pack ice in winter. They will commonly use dumps in northern Alaska.",
+      "description": "The arctic fox is found in treeless coastal areas of Alaska from the Aleutian Islands north to Point Barrow and east to the Canada border. They prefer tundra habitat, usually near rocky shores, and have been observed ranging far out onto pack ice in winter.",
       "image": "/images/fox7.jpg",
       "food": "Birds"
     }

@@ -2,12 +2,23 @@
   background: #e0a985;
 }
 
+.card-body:hover {
+  background: #ffdbc4;
+}
+
 .card-top {
   position: relative;
 }
 
 .desc-text {
   font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #e0a985 0.6;
+  color: #512d15;
+}
+
+.desc-text:hover {
+  transition: all ease 0.7s;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #e0a985 0.6;
   color: #512d15;

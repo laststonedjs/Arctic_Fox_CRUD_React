@@ -50,7 +50,7 @@ const FoxList = () => {
   return (
     <div className='container'>
       <div className='add-fox-btn'>
-        <div style={{ marginBottom: "8px", position: "relative", left: "38%", padding: "1rem" }}>
+        <div style={{ marginBottom: "8px", position: "relative", left: "77%", padding: "1rem" }}>
           <Link
             to="/foxes/add"
             className='btn btn-success'>
@@ -58,7 +58,7 @@ const FoxList = () => {
           </Link>
         </div>
 
-        <div className="foxList">
+        <div className="fox-list">
           {
             foxData &&
             foxData.map(item => (
@@ -72,17 +72,17 @@ const FoxList = () => {
                 <div className='btn-group'>
                   <button
                     onClick={(e) => { LoadEdit(item.id) }}
-                    class="btn btn-outline-warning">
+                    className="btn btn-warning">
                     Edit
                   </button>
                   <button
-                    class="btn btn-danger"
+                    className="btn btn-danger"
                     onClick={(e) => { RemoveItem(item.id) }}
                   >
                     Delete
                   </button>
                   <button
-                    class="btn btn-info"
+                    className="btn btn-info"
                     onClick={(e) => { LoadDetail(item.id) }}
                   >
                     More

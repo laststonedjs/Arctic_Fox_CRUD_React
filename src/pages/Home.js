@@ -20,31 +20,28 @@ const Home = () => {
 
 
   return (
-    <div className="home-wrapper">
+    <>
       <Header />
-      <div className="container">
-        <p>
-          <a href="/home" className="home-link">Go to Detail Page &raquo;</a>
-        </p>
-        <div>
+      <p className='home-nav'>
+        <a href="/home" style={{ textDecoration: "none", color: "crimson" }}>Go to Detail Page &raquo;</a>
+      </p>
+      <div className='home-card-wrapper'>
+        <div className='home-card-items'>
           {
             foxData &&
             foxData.map(item => (
-              <div
+              <FoxCard
                 key={item.id}
-                className='home-card-items'>
-                <FoxCard
-                  name={item.name}
-                  age={item.age}
-                  image={item.image}
-                  description={item.description}
-                />
-              </div>
+                name={item.name}
+                age={item.age}
+                image={item.image}
+                description={item.description}
+              />
             )
             )}
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
